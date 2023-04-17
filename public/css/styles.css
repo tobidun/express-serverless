@@ -1,0 +1,102 @@
+.welcome {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.signup {
+  color: blue;
+  font-size: 20px;
+}
+
+.login {
+  color: blue;
+  font-size: 20px;
+}
+
+.down-image {
+  width: 100%;
+  height: 550px;
+}
+
+.image {
+  width: 782px;
+}
+
+.logo {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.header {
+  display: flex;
+  background-color: green;
+}
+
+.navBar {
+  padding-left: 700px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.loginSign {
+  text-align: center;
+}
+
+tr.spaceUnder > td {
+  border-spacing: 0 !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  font-size: 35px;
+}
+
+tr.spaceUnder2 > td {
+  border-spacing: 0 !important;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.body {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "name": "Jon snow",
+      "department": "Chemistry",
+      "faculty": "SPS",
+      "Hobby": "Soccer"
+    },
+    {
+      "name": "Ayra stark",
+      "department": "Physics",
+      "faculty": "SPS",
+      "Hobby": "Basketball"
+    },
+    {
+      "name": "Robert baratheon",
+      "department": "Biology",
+      "faculty": "SLS",
+      "Hobby": "volleyball"
+    },
+    {
+      "name": "Cersei lannister",
+      "department": "agric",
+      "faculty": "SAAT",
+      "Hobby": "hockey"
+    },
+    {
+      "name": "Theon greyjoy",
+      "department": "Civil Engineering",
+      "faculty": "SEET",
+      "Hobby": "Snow boarding"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<html>
+  <head>
+    <div class="header">
+      <table>
+        <tr>
+          <td>
+            <a href="/latest"
+              ><img src="/images/logo.jpg" class="logo" alt="logo"
+            /></a>
+          </td>
+          <td>
+            <div class="navBar">
+              <table>
+                <tr class="spaceUnder2">
+                  <td>
+                    <h4>
+                      <a href="/latest/contact">Contact us</a>
+                    </h4>
+                  </td>
+                  <td>
+                    <h5>
+                      <a href="/latest/about">About us</a>
+                    </h5>
+                  </td>
+                  <td>
+                    <h6>
+                      <a href="/latest/mission">Our mission</a>
+                    </h6>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/latest/thankyou">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">AUSTRALIA</option>
+          <option value="canada">CANADA</option>
+          <option value="usa">USA</option>
+          <option value="nigeria">NIGERIA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
